@@ -122,9 +122,7 @@ export default class Login extends Component {
               Show Password
             </Label>
           </ShowPasswordContainer>
-          <Label theme="true">Username:rahul Password:rahul@2021</Label>
           <LoginButton type="submit"> Login</LoginButton>
-
           {showError ? <ErrorMessage>*{showErrorMsg}</ErrorMessage> : ''}
         </LoginCardForm>
       </LoginAppContainer>
